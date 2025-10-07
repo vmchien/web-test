@@ -145,16 +145,19 @@ header p {
     margin-bottom: 30px;
 }
 
-/* ====== CATEGORY LISTS ====== */
-.category-list {
+/* ====== CATEGORY LISTS & QUICK LINKS ====== */
+.category-list,
+.quick-links-list {
     list-style: none;
 }
 
-.category-list li {
+.category-list li,
+.quick-links-list li {
     margin-bottom: 10px;
 }
 
-.category-list a {
+.category-list a,
+.quick-links-list a {
     display: block;
     padding: 10px 15px;
     background: #f0f0f0;
@@ -164,7 +167,8 @@ header p {
     transition: all 0.3s ease;
 }
 
-.category-list a:hover {
+.category-list a:hover,
+.quick-links-list a:hover {
     background: #2575fc;
     color: white;
 }
@@ -198,19 +202,23 @@ header p {
     background: #2575fc;
 }
 
-.scrollable-list .category-list {
+.scrollable-list .category-list,
+.scrollable-list .quick-links-list {
     margin: 0;
 }
 
-.scrollable-list .category-list li {
+.scrollable-list .category-list li,
+.scrollable-list .quick-links-list li {
     margin-bottom: 6px;
 }
 
-.scrollable-list .category-list li:last-child {
+.scrollable-list .category-list li:last-child,
+.scrollable-list .quick-links-list li:last-child {
     margin-bottom: 0;
 }
 
-.scrollable-list .category-list a {
+.scrollable-list .category-list a,
+.scrollable-list .quick-links-list a {
     padding: 10px 12px;
     font-size: 0.9rem;
     line-height: 1.4;
